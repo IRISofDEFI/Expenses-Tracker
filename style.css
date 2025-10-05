@@ -1,0 +1,39 @@
+body {
+  background-color: orange;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.expense-tracker {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: beige;
+}
+.expense-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.add-expense-btn {
+  padding: 10px 30px;
+  background-color: green;
+  counter-reset: #fff;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-expense-btn:hover {
+  background-color: rgb(69, 107, 11);
+}
+.total-expenses {
+  text-align: right;
+}
